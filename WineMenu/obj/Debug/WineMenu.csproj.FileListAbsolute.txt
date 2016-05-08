@@ -1,0 +1,6 @@
+C:\Users\Nick\documents\visual studio 2010\Projects\WineMenu\WineMenu\bin\WineMenu.dll
+C:\Users\Nick\documents\visual studio 2010\Projects\WineMenu\WineMenu\bin\WineMenu.pdb
+C:\Users\Nick\documents\visual studio 2010\Projects\WineMenu\WineMenu\bin\EntityFramework.dll
+C:\Users\Nick\documents\visual studio 2010\Projects\WineMenu\WineMenu\bin\EntityFramework.xml
+C:\Users\Nick\documents\visual studio 2010\Projects\WineMenu\WineMenu\obj\Debug\WineMenu.dll
+C:\Users\Nick\documents\visual studio 2010\Projects\WineMenu\WineMenu\obj\Debug\WineMenu.pdb

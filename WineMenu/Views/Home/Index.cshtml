@@ -1,0 +1,15 @@
+﻿
+@model IEnumerable<WineMenu.Models.Pub>
+@{
+    ViewBag.Title = "Pubs";
+}
+
+<h2>This is the Home Page</h2>
+
+<h4>@ViewBag.Message</h4>
+@*@Html.DropDownListFor("Pubs");*@
+
+@foreach(WineMenu.Models.Pub p in Model)
+    {
+    @Html.DisplayFor(modelItem => p.PubName)
+    }

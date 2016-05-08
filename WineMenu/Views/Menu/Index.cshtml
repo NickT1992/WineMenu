@@ -1,0 +1,25 @@
+﻿@model IEnumerable<WineMenu.Models.Menu>
+
+@{
+    ViewBag.Title = "MenuIndex"; //Was just Index beforehand
+}
+
+<h3>Browse Menus</h3>
+<p>Select from @Model.Count() Menus:</p>
+
+<ul>
+    @foreach (var menu in Model)
+    {
+        <li>@Html.ActionLink(menu.MenuName,"Browse", new { menu = menu.MenuName })</li>
+    }
+</ul>
+
+@*How to populate DDs from Controller*@
+<h4>@ViewBag.Message</h4>
+@Html.DropDownList("WineTypeDropDown", new SelectList(new [] {"White", "Red", "Rose"}))
+
+<h4>@ViewBag.Message</h4>
+@Html.DropDownList("WineDropDown", new SelectList(new[] { "House White", "House Red", "House Rose" }))
+
+<h4>@ViewBag.Message</h4>
+@Html.DropDownListFor("MenuIndex");
